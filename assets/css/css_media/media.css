@@ -1,0 +1,30 @@
+@media only screen and (max-width: 620px) {
+    main section {
+        width: 300px;
+        min-height: 430px;
+    }
+    section .weather {
+        flex-direction: column;
+        align-items: center;
+    }
+    header .header-container {
+        width: 100%;
+        height: 150px;
+    }
+    .weather .ico {
+        width: 100%;
+        overflow: visible;
+    }
+    .ico img {
+        margin: -20px 0 0 0;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+    .header-container .brand {
+        font-size: 32px;
+    }
+}

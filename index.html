@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/css_main/style.css">
+        <link rel="stylesheet" href="assets/css/css_media/media.css">
+ 	    <link rel="icon" href="assets/favicon/icon.ico">		
+        <title>Weather Forecast</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-container">
+                <div class="brand">WEATHER FORECAST</div>
+                <div class="inp-wrapper">
+                    <input data-city placeholder="Name of the city..." type="text">
+                    <button data-btn>SHOW</button>
+                </div>
+                <div class="res"></div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div data-name-country class="name-city marg">ENGLAND</div>
+                <div data-name-city class="name-city">LONDON</div>
+                <div class="weather">
+                    <div class="temp-wrapper">
+                        <div class="temp"><label data-temp-c>2</label>°</div>   
+                        <div class="temp2">Feels like: <label data-feel>5</label>°</div>
+                        <div data-condition class="temp2">Rain</div>
+                        <div data-condition class="temp2">Wind speed: <label data-wind>5</label> kph</div>
+                    </div>
+                    <div class="ico">
+                        <img data-img src="assets/images/1.png">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="java_script/core.js"></script>
+    </body>
+</html>
